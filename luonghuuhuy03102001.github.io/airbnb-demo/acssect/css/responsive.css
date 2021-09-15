@@ -1,0 +1,304 @@
+/* mobile vs tablet */
+
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .header_logo__link {
+        display: none;
+    }
+    .header_logo_onipab {
+        display: block;
+    }
+}
+
+/* tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header_img {
+        display: none;
+    }
+    /* header */
+    .header_img_ipab {
+        display: block;
+    }
+    /* header navbar  */
+    .navbar_user_list_scroll_ipab {
+        display: none;
+    }
+    .header_menu_ipab {
+        display: block;
+    }
+    /* header menu */
+    .header_menu__list_ipab {
+        width: 100%;
+    }
+    .header_menu__list_ipab {
+        display: flex;
+    }
+    .header_menu_location {
+        width: 180px;
+    }
+    .header_menu_location_input {
+        width: 120px;
+    }
+    .header_menu_guest {
+        width: 192px;
+    }
+    .header_navbar_ipab {
+        display: flex;
+        width: 100%;
+        height: var(--height-header-navbar);
+        position: relative;
+        justify-content: center;
+    }
+    .header_navbar__list {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    /* header slider */
+    .header_slider {
+        margin: 0;
+    }
+    /* content Wherever */
+    .content_residence_img {
+        width: 216px;
+        height: 216px;
+    }
+    .content_Wherever_ipab {
+        display: block;
+    }
+    .content_discover_heading {
+        font-size: 2.7rem;
+    }
+    /* content receive guests */
+    .receive_guests_heading {
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: none;
+    }
+    .content_receive_guests_right {
+        width: 360px;
+        height: 360px;
+    }
+    .content_receive_guests_center {
+        width: 264px;
+    }
+    .receive_guests_sub_text {
+        font-size: 1.6rem;
+    }
+    .receive_guests_btn {
+        width: 124px;
+        height: 35px;
+        margin-top: 10px;
+    }
+    .receive_guests_btn_text {
+        font-size: 1.4rem;
+    }
+    .content_receive_guests_img {
+        display: none;
+    }
+    .content_receive_guests_img_ipab {
+        display: block;
+    }
+    /* content experience */
+    .content_experience_img {
+        height: 216px;
+        width: 216px;
+    }
+    /* footer menu */
+    .footer_menu {
+        padding: 30px 0;
+    }
+    .footer_menu_link {
+        margin-right: 12px;
+    }
+    .footer_menu::after {
+        display: block;
+    }
+    /* footer botton */
+    .footer_botton {
+        display: none;
+    }
+    .footer_botton_ipab {
+        display: block;
+    }
+    .footer_botton_Rule_list,
+    .footer_botton_socials {
+        justify-content: center;
+    }
+    .footer_botton_link {
+        margin-left: 0;
+    }
+    .footer_botton_Rule_ipab {
+        text-align: center;
+    }
+    .footer_botton_Rule {
+        margin: 10px 0 34px;
+    }
+    .footer_botton::before {
+        display: none
+    }
+}
+
+/* mobile */
+
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .navbar_mobile {
+        display: block;
+    }
+    /* header scroll */
+    .header_mobile_box_search_mobile {
+        background-color: rgb(231, 227, 227);
+    }
+    /* hearder covi 19 */
+    .header_covi_19 {
+        background-color: #f7f7ff;
+    }
+    .header_covi_19_text {
+        font-size: 1.2rem;
+        width: 250px;
+        color: var(--text-color);
+    }
+    /* header */
+    .header_img_moblie {
+        display: block;
+    }
+    .header_img {
+        display: none;
+    }
+    .header {
+        height: 430px;
+    }
+    .header_mobile {
+        display: block;
+    }
+    /* header navbar */
+    .header_navbar {
+        display: none;
+    }
+    .header_menu__list,
+    .header_menu {
+        display: none;
+    }
+    /* slider */
+    .header_slider {
+        height: 220px;
+    }
+    .header_slider_sub {
+        width: 171px;
+        margin: 0 auto;
+        font-size: 1.7rem;
+        line-height: 27px;
+        font-weight: 700;
+        padding-bottom: 12px;
+    }
+    .header_slider_text_content {
+        width: 200px;
+    }
+    .header_slider_btn {
+        width: 200px;
+    }
+    .header_slider_btn_sub {
+        padding: 0 43px;
+        line-height: 21px;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .recent_destinations_name {
+        width: 150px;
+    }
+    .content_discover_moblie {
+        display: block;
+    }
+    /* content Wherever */
+    .content_residence_margin_left {
+        margin-left: 24px;
+    }
+    .content_residence_margin_right {
+        margin-right: 24px;
+    }
+    /* content receive guests */
+    .content_receive_guests_mobile {
+        display: block;
+    }
+    .content_discover_heading {
+        font-size: 2.3rem;
+        line-height: 30px;
+        margin-left: 20px;
+    }
+    .content_residence_img {
+        width: 188px;
+        height: 188px;
+    }
+    .receive_guests_heading {
+        font-size: 2rem;
+        line-height: 20px;
+        font-weight: 500;
+    }
+    .receive_guests_sub_text {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 18px;
+    }
+    .receive_guests_btn {
+        width: 125px;
+        height: 35px;
+        margin: 0;
+    }
+    .receive_guests_btn_text {
+        font-size: 1.4rem;
+    }
+    .content_receive_guests_img {
+        display: none;
+    }
+    .content_receive_guests_right {
+        width: 100%;
+        height: 100%;
+        align-items: flex-start;
+        padding: 32px 32px 0 32px;
+    }
+    .content_receive_guests_center {
+        width: 200px;
+        text-align: center;
+    }
+    /* content experience */
+    .content_experience_img {
+        width: 272px;
+        height: 272px;
+    }
+    .footer {
+        margin-top: 20px;
+    }
+    .footer_menu {
+        padding: 10px 0px 10px 24px;
+    }
+    .footer_menu::after {
+        display: block;
+        margin: 0 24px;
+    }
+    .footer_botton_link,
+    .footer_botton {
+        display: none;
+    }
+    .footer_botton_ipab {
+        display: block;
+    }
+    .footer_botton_socials {
+        justify-content: center;
+    }
+    .footer_botton_Rule_link {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .footer_botton_Rule_list {
+        justify-content: center;
+    }
+    .footer_botton_Rule {
+        padding: 0px 0 100px;
+    }
+}

@@ -1,0 +1,18 @@
+:root {
+    --White-color: #ffffff;
+    --text-color: #222222;
+    --black-color: #000;
+    --height-header-navbar: 80px;
+    --height-header-menu: 66px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
